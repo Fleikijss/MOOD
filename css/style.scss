@@ -1,0 +1,253 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+header {
+  background: rgb(109, 4, 4);
+  display: flex;
+  justify-content: space-between;
+  span {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+  }
+  img {
+    margin-left: 20px;
+    padding: 20px;
+    width: 15%;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a + a {
+      margin-left: 10px;
+    }
+  }
+}
+main {
+  .description {
+    background-image: url("bg-red.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .main {
+      img {
+        padding: 50px 200px;
+      }
+    }
+    p {
+      color: white;
+      margin: auto;
+      text-align: center;
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.6em;
+    }
+    .logo {
+      display: flex;
+      margin: 18px auto 0 auto;
+      width: 5%;
+      padding-bottom: 20px;
+      img {
+        height: 40px;
+      }
+      a + a {
+        margin-left: 30px;
+      }
+    }
+  }
+  .wrapper {
+    background-color: red;
+    h2 {
+      margin: 0%;
+      text-align: center;
+      color: white;
+      padding: 50px 0;
+    }
+    img {
+      width: 30%;
+    }
+    .wrapper-block {
+      display: flex;
+      padding: 0 30px;
+      div {
+        width: 30%;
+        align-items: center;
+      }
+      .block-section {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        div {
+          color: white;
+          display: block;
+          margin: 0 auto;
+          width: 220px;
+          line-height: 1.6;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .greenBlock {
+    background-image: url("bg-green.svg");
+    background-repeat: no-repeat;
+    h2 {
+      margin: 0;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+    }
+    p {
+      color: white;
+      margin: auto;
+      text-align: center;
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.6em;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 24px;
+      div + div {
+        margin-left: 30px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      .active {
+        border: 3px solid rgb(255, 255, 255);
+      }
+    }
+  }
+  .photo {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 25%;
+    }
+  }
+  .blueBlock {
+    background-image: url("bg-blue.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .menu-block {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 30px;
+      div + div {
+        margin-left: 30px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      .active {
+        border: 3px solid rgb(255, 255, 255);
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+    }
+  }
+  .tableBlock {
+    background-color: rgb(0, 183, 255);
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      line-height: 3;
+      color: white;
+    }
+    tr {
+      border-bottom: 2px solid black;
+    }
+    td {
+      text-align: center;
+      font-size: 12px;
+      line-height: 3;
+      color: white;
+    }
+  }
+  .team {
+    background-color: green;
+    div {
+      display: flex;
+    }
+    img {
+      width: 25%;
+    }
+    h2 {
+      margin: 0;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+    }
+    p {
+      color: white;
+      margin: auto;
+      text-align: center;
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.6em;
+      padding-bottom: 20px;
+    }
+  }
+  .contact {
+    background-image: url(bg-blue.svg);
+    background-repeat: no-repeat;
+    h2 {
+      margin: 0;
+      padding: 50px 0;
+      color: white;
+      text-align: center;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+
+      .col,
+      .input-field {
+        width: 50%;
+        background-color: rgb(7, 7, 161);
+        opacity: 0.6;
+      }
+      .input-label {
+        margin: 10px 0;
+        position: relative;
+      }
+      .btn {
+        width: 50%;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 3px;
+        margin-bottom: 28px;
+      }
+      .input-field {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    }
+  }
+}

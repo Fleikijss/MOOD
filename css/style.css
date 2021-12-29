@@ -1,0 +1,333 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  background: #6d0404;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+
+header img {
+  margin-left: 20px;
+  padding: 20px;
+  width: 15%;
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+header div a {
+  color: white;
+  text-decoration: none;
+}
+
+header div a + a {
+  margin-left: 10px;
+}
+
+main .description {
+  background-image: url("bg-red.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .description .main img {
+  padding: 50px 200px;
+}
+
+main .description p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+main .description .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 18px auto 0 auto;
+  width: 5%;
+  padding-bottom: 20px;
+}
+
+main .description .logo img {
+  height: 40px;
+}
+
+main .description .logo a + a {
+  margin-left: 30px;
+}
+
+main .wrapper {
+  background-color: red;
+}
+
+main .wrapper h2 {
+  margin: 0%;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+
+main .wrapper img {
+  width: 30%;
+}
+
+main .wrapper .wrapper-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30px;
+}
+
+main .wrapper .wrapper-block div {
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .wrapper .wrapper-block .block-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+main .wrapper .wrapper-block .block-section div {
+  color: white;
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+main .greenBlock {
+  background-image: url("bg-green.svg");
+  background-repeat: no-repeat;
+}
+
+main .greenBlock h2 {
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+main .greenBlock p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+main .greenBlock .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 24px;
+}
+
+main .greenBlock .nav div + div {
+  margin-left: 30px;
+}
+
+main .greenBlock .nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main .greenBlock .nav .active {
+  border: 3px solid white;
+}
+
+main .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .photo img {
+  width: 25%;
+}
+
+main .blueBlock {
+  background-image: url("bg-blue.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .blueBlock .menu-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 30px;
+}
+
+main .blueBlock .menu-block div + div {
+  margin-left: 30px;
+}
+
+main .blueBlock .menu-block a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main .blueBlock .menu-block .active {
+  border: 3px solid white;
+}
+
+main .blueBlock h2 {
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+main .tableBlock {
+  background-color: #00b7ff;
+}
+
+main .tableBlock table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main .tableBlock th {
+  line-height: 3;
+  color: white;
+}
+
+main .tableBlock tr {
+  border-bottom: 2px solid black;
+}
+
+main .tableBlock td {
+  text-align: center;
+  font-size: 12px;
+  line-height: 3;
+  color: white;
+}
+
+main .team {
+  background-color: green;
+}
+
+main .team div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .team img {
+  width: 25%;
+}
+
+main .team h2 {
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+main .team p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.6em;
+  padding-bottom: 20px;
+}
+
+main .contact {
+  background-image: url(bg-blue.svg);
+  background-repeat: no-repeat;
+}
+
+main .contact h2 {
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+main .contact .contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .contact .contact-form .col,
+main .contact .contact-form .input-field {
+  width: 50%;
+  background-color: #0707a1;
+  opacity: 0.6;
+}
+
+main .contact .contact-form .input-label {
+  margin: 10px 0;
+  position: relative;
+}
+
+main .contact .contact-form .btn {
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-bottom: 28px;
+}
+
+main .contact .contact-form .input-field {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
